@@ -1,1 +1,78 @@
-*{background-color: blue;}
+
+.header {
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    font-family: cursive;
+}
+
+.outerContent {
+    background-image: url(../images/background.jpeg);
+    background-repeat: repeat;
+    width: 100%;
+    padding-bottom: 10rem;
+}
+
+.innerContent {
+    display: none;
+}
+
+.selected {
+    display: block;
+}
+
+
+.topMenu li.tabSelected {
+    background-color: red;
+    color: black;
+}
+
+.topMenu ul {
+    width: 100%;
+    display: table;
+    padding: 0em;
+}
+
+.topMenu ul li {
+    display: table-cell;
+    color: red;
+    background-color: black;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    text-align: center;
+}
+
+
+
+.topMenu li:hover {
+    background-color: rgb(42,42,42);
+    cursor: pointer;
+}
+
+.pizzaImages {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.pizzaImages img {
+    width: 50%;
+    
+}
+
+.card {
+    background-color: white;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1rem;
+}
+
+.sectionTitle {
+    font-family: cursive;
+}
+
+.stepTitle {
+    padding-top: 1.0rem;
+}

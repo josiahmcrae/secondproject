@@ -1,16 +1,26 @@
+table {border-collapse: collapse; border-spacing: 0;}
+
+body {
+    margin: 0;
+}
 
 .header {
-    width: 100%;
     font-size: 3rem;
     font-weight: 700;
     text-align: center;
     font-family: cursive;
+    padding: 1.3em;
+    border-style: dashed;
+    background-color: red;
+    margin: 20;
 }
 
 .outerContent {
     background-image: url(../images/background.jpeg);
     background-repeat: repeat;
     width: 100%;
+    margin: 0;
+    padding-top: 0;
     padding-bottom: 10rem;
 }
 
@@ -22,7 +32,28 @@
     display: block;
 }
 
+.topMenu {
+    margin: 0;
+    padding: 0;
+}
 
+ol {
+    padding-left: 1.5em;
+}
+
+ul {
+    padding-left: 1.5em;
+}
+
+ol li {
+    list-style-type: decimal;
+    padding: 0.25em;
+}
+
+ul li {
+    list-style-type: square;
+    padding: 0.25em;
+}
 .topMenu li.tabSelected {
     background-color: red;
     color: black;

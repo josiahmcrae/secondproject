@@ -4,6 +4,12 @@ body {
     margin: 0;
 }
 
+.topHeader {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
 .header {
     font-size: 3rem;
     font-weight: 700;
@@ -13,6 +19,7 @@ body {
     border-style: dashed;
     background-color: red;
     margin: 20;
+   
 }
 
 .outerContent {
@@ -20,7 +27,7 @@ body {
     background-repeat: repeat;
     width: 100%;
     margin: 0;
-    padding-top: 0;
+    padding-top: 20em;
     padding-bottom: 10rem;
 }
 
@@ -87,9 +94,17 @@ ul li {
 }
 
 .pizzaImages img {
-    width: 50%;
-    
+    width: 50%; 
 }
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .pizzaIngredients {
+    min-width: 2rem;
+} */
 
 .card {
     background-color: white;
@@ -98,6 +113,9 @@ ul li {
     border-style: solid;
     border-color: black;
     border-width: 0.1rem;
+    opacity: .95;
+    min-width: 25rem;
+    max-width: 40rem;
 }
 
 .sectionTitle {
